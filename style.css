@@ -1,0 +1,247 @@
+body{
+    
+}
+/* ------------------------------- */
+.navbartop{
+    display: flex;
+    align-content: flex-start;
+    margin: 0 auto;
+    height: 50px;
+    background-color: rgb(56, 56, 56);
+    width: 80%;
+}
+/* ------------------------------- */
+.topblok{
+    display: flex;
+    margin: 0 auto;
+    align-content: flex-start;
+    height: 400px;
+    background-color: gray;
+    width: 80%;
+}
+/* ------------------------------- */
+.topmid{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 155px;
+    background-color: white;
+    width: 65%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+.orb1{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid rgb(148, 160, 160);;
+    border-radius: 50%;
+    background-color: rgb(148, 160, 160);
+}
+.orb2{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(148, 160, 160);;
+    border-radius: 50%;
+    background-color: rgb(148, 160, 160);
+
+}
+.orb3{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid rgb(148, 160, 160);;
+    border-radius: 50%;
+    background-color: rgb(148, 160, 160);
+
+}
+/* ------------------------------- */
+.topmidx{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    width: 65%;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+.tekst1, h2{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.tekst2, h2{    
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.tekst3, h2{    
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* ------------------------------- */
+.topmidxx{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 210px;
+    background-color: white;
+    width: 65%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.tekst1, p{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.tekst2, p{    
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.tekst3, p{    
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a{
+    border: 1px solid green;
+    background-color: lawngreen;
+    text-decoration: none;
+    border-radius: 25%;
+}
+a:visited{
+    font-size: 22px;
+    border: 1px solid green;
+    background-color: lawngreen;
+    text-decoration: none;
+}
+a:link{
+    font-size: 22px;
+    border: 1px solid green;
+    background-color: lawngreen;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 22px;
+    border: 1px solid rgb(128, 105, 0);
+    background-color: rgb(252, 193, 0);
+    text-decoration: none;
+    overflow: hidden;
+}
+a:active{
+    font-size: 22px;
+    border: 1px solid green;
+    background-color: lawngreen;
+    text-decoration: none;
+}
+/* ------------------------------- */
+.mid{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mblok2{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        width: 700px;
+        height: 400px;
+        background-color: brown;
+    }
+    .mblok3{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        width: 500px;
+        background-color: rgb(196, 194, 194);
+        height: 400px;
+    }
+/* ------------------------------- */
+.botmid{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bblok2{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        width: 700px;
+        height: 400px;
+        background-color: brown;
+    }
+    .bblok3{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        width: 500px;
+        background-color: rgb(196, 194, 194);
+        height: 400px;
+    }
+    /* ------------------------------- */
+.bot{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botblok2{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        width: 700px;
+        height: 400px;
+
+        background-color: brown;
+    }
+    .botblok3{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        width: 500px;
+        background-color: rgb(196, 194, 194);
+        height: 400px;
+    }
